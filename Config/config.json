@@ -23,7 +23,7 @@
     ],
 
     "engines" : [
-        "StockfishMaterialValues",
+        "Stockfish-Material-Counting",
         "4ku",
         "Berserk",
         "Bit-Genie",
