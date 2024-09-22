@@ -5,8 +5,8 @@
 
     "build" : {
         "path"      : "src",
-        "compilers" : ["mingw", "ucrt64", "mingw++", "g++"],
-        "cpuflags"  : ["BMI2","AVX2", "FMA"],
+        "compilers" : ["mingw", "gcc", "mingw++"],
+        "cpuflags"  : ["BMI2","AVX2"],
         "systems"   : ["Windows"]
     },
 
