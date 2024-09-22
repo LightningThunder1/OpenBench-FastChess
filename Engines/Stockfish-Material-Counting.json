@@ -5,9 +5,9 @@
 
     "build" : {
         "path"      : "src",
-        "compilers" : ["mingw++", "g++"],
-        "cpuflags"  : ["AVX2", "FMA", "POPCNT"],
-        "systems"   : ["Windows", "Linux"]
+        "compilers" : ["mingw", "ucrt64", "mingw++", "g++"],
+        "cpuflags"  : ["BMI2","AVX2", "FMA"],
+        "systems"   : ["Windows"]
     },
 
     "test_presets" : {
